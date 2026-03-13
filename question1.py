@@ -74,3 +74,4 @@ updated_output, _ = cmac_output(p, cells)
 print(f"\nUpdated CMAC output for p = {p}: {updated_output:.3f}")
 print("\nUpdated cells:")
 for cell in active_cells:
+    print(f"  {cell['name']}: {cell['value']:.3f}")
